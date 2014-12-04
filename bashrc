@@ -1,6 +1,7 @@
 #
 # ~/.bashrc
 #
+if ! [ "$0" = "/bin/bash" ] ; then return; fi
 [[ $- != *i* ]] && return
 ##
 # Find any global bashrc config files
