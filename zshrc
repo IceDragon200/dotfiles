@@ -63,6 +63,7 @@ export PATH=\
 ":/usr/bin/core_perl"\
 ":/home/icy/bin/"\
 ":/home/icy/docs/codes/mruby/bin/"\
+":/home/icy/docs/codes/IceDragon/mruby-moon/bin/"\
 ":/home/icy/docs/codes/archSeer/moon/bin"\
 ":/home/icy/apps/go/bin"\
 ":${GOPATH}/bin"
