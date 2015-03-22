@@ -19,11 +19,18 @@ set background=dark
 set backspace=indent,eol,start
 set cursorline
 
-
+" Syntax highlighting yo!
 syntax on
 
+" Trim trailing whitespace
 autocmd BufWritePre * :%s/\s\+$//e
 
+" Use spaces instead of tabs
+set expandtab
+" Indent with only 2 spaces
+set tabstop=2
+
+" Pathogen
 execute pathogen#infect()
 
 set nobackup
