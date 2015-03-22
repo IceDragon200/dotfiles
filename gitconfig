@@ -50,8 +50,6 @@
   p = push
   pf = push --force
   pl = pull
-  plr = pull --rebase
-  plrm = pull --rebase origin master
   r = rebase
   ra = rebase --abort
   rc = rebase --continue
