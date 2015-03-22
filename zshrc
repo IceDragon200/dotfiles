@@ -61,11 +61,11 @@ export PATH=\
 ":/opt/android-sdk/tools"\
 ":/usr/share/java/gradle/bin"\
 ":/usr/bin/core_perl"\
-":/home/icy/bin/"\
-":/home/icy/docs/codes/mruby/bin/"\
-":/home/icy/docs/codes/IceDragon/mruby-moon/bin/"\
-":/home/icy/docs/codes/archSeer/moon/bin"\
-":/home/icy/apps/go/bin"\
+":${HOME}/bin/"\
+":${HOME}/docs/codes/mruby/bin/"\
+":${HOME}/docs/codes/IceDragon/mruby-moon/bin/"\
+":${HOME}/docs/codes/archSeer/moon/bin"\
+":${HOME}/apps/go/bin"\
 ":${GOPATH}/bin"
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -74,6 +74,7 @@ export PATH=\
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
+export EDITOR="vim"
 # if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='vim'
 # else
@@ -94,5 +95,7 @@ export PATH=\
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+#
+# Because I'm a lazy ass, and bundle has too much typing!
 alias bex="bundle exec"
 alias bun="bundle update"
