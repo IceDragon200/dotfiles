@@ -1,0 +1,4 @@
+/weechat/*.pem
+/weechat/*.bak
+/weechat/*.log
+/weechat/logs
