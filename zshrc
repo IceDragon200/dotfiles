@@ -23,7 +23,7 @@ ZSH_THEME="norm"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-ENABLE_CORRECTION="true"
+# ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # COMPLETION_WAITING_DOTS="true"
@@ -61,17 +61,21 @@ export PATH=\
 ":/opt/android-sdk/tools"\
 ":/usr/share/java/gradle/bin"\
 ":/usr/bin/core_perl"\
+":${HOME}/.gem/ruby/2.3.0/bin"\
 ":${HOME}/bin/"\
+":${HOME}/opt/npm/bin"\
 ":${HOME}/docs/codes/mruby/bin/"\
-":${HOME}/docs/codes/IceDragon/mruby-moon/bin/"\
-":${HOME}/docs/codes/archSeer/moon/bin"\
-":${HOME}/apps/go/bin"\
-":${GOPATH}/bin"
+":${HOME}/docs/codes/Polyfox/moon/bin/"\
+":${GOROOT}/bin"\
+":${GOPATH}/bin"\
+":/usr/local/heroku/bin"
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
+
+alias ls='ls --color=auto'
 
 # Preferred editor for local and remote sessions
 export EDITOR="vim"
@@ -96,6 +100,7 @@ export EDITOR="vim"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
-# Because I'm a lazy ass, and bundle has too much typing!
-alias bex="bundle exec"
-alias bun="bundle update"
+
+
+# added by travis gem
+[ -f /home/icy/.travis/travis.sh ] && source /home/icy/.travis/travis.sh
