@@ -11,7 +11,7 @@ fi
 
 alias ls='ls --color=always'
 
-export EDITOR="nano"
+export EDITOR="vim"
 export PATH=$PATH":/home/icy/bin/"
 
 # [time] server|username [working directory] $
