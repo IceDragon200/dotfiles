@@ -2,3 +2,4 @@
 /weechat/*.bak
 /weechat/*.log
 /weechat/logs
+/weechat/irc.conf
