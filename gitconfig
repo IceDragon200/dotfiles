@@ -1,63 +1,73 @@
 [user]
-  name = Corey Powell
-  email = mistdragon100@gmail.com
-  signingkey = 0FE89D30
+	name = Corey Powell
+	email = mistdragon100@gmail.com
+	signingkey = 0FE89D30
 
 [github]
-  user = IceDragon
+	user = IceDragon
 
 [color]
-  ui = auto
+	ui = auto
 
 [color "diff"]
-  meta = blue bold
-  frag = magenta bold
-  old = red bold
-  new = green bold
+	meta = blue bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
 
 [color "branch"]
-  current = yellow reverse
-  local = yellow bold
-  remote = green bold
-  plain = red bold
+	current = yellow reverse
+	local = yellow bold
+	remote = green bold
+	plain = red bold
 
 [color "status"]
-  added = yellow
-  changed = green bold
-  untracked = blue bold
+	added = yellow
+	changed = green bold
+	untracked = blue bold
 
 [merge]
-  conflictstyle = diff3
+	conflictstyle = diff3
 
 [alias]
-  a = add
-  ap = add --patch
-  bd = branch -d
-  bdd = branch -D
-  c = commit -v
-  ca = commit -v --amend
-  co = checkout
-  cp = cherry-pick
-  d = diff
-  dc = diff --cached
-  f = fetch
-  fx = !sh -c 'git commit -m \"fixup! $(git log -1 --format='\\''%s'\\'' $@)\"' -
-  g = grep -n
-  hrd = reset --hard
-  l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %C(yellow)%an%Creset' --all --abbrev-commit --date=relative
-  m = merge
-  mm = merge origin/master
-  p = push
-  pf = push --force
-  pl = pull
-  r = rebase
-  ra = rebase --abort
-  rc = rebase --continue
-  ri = rebase --interactive --autosquash
-  rom = rebase origin/master
-  rs = rebase --skip
-  s = status
-  sh = !git-sh
-  sq = !sh -c 'git commit -m \"squash! $(git log -1 --format='\\''%s'\\'' $@)\"' -
-  sw = show
-  undo = reset --soft HEAD^
+	a = add
+	ap = add --patch
+	bd = branch -d
+	bdd = branch -D
+	c = commit -v
+	ca = commit -v --amend
+	co = checkout
+	cp = cherry-pick
+	d = diff
+	dc = diff --cached
+	f = fetch
+	fx = !sh -c 'git commit -m \"fixup! $(git log -1 --format='\\''%s'\\'' $@)\"' -
+	g = grep -n
+	hrd = reset --hard
+	l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %C(yellow)%an%Creset' --all --abbrev-commit --date=relative
+	m = merge
+	mm = merge origin/master
+	p = push
+	pf = push --force
+	pl = pull
+	r = rebase
+	ra = rebase --abort
+	rc = rebase --continue
+	ri = rebase --interactive --autosquash
+	rom = rebase origin/master
+	rs = rebase --skip
+	s = status
+	sh = !git-sh
+	sq = !sh -c 'git commit -m \"squash! $(git log -1 --format='\\''%s'\\'' $@)\"' -
+	sw = show
+	undo = reset --soft HEAD^
+
+[push]
+	default = matching
+
+[gui]
+	fontui = -family \"Anonymous Pro\" -size 10 -weight normal -slant roman -underline 0 -overstrike 0
+	fontdiff = -family \"Anonymous Pro\" -size 8 -weight normal -slant roman -underline 0 -overstrike 0
+
+[rebase]
+	autostash = true
