@@ -19,3 +19,6 @@ PS1='[\t] \[\e[1m\]\[\e[34m\]\h\[\e[0m\]|\[\e[1m\]\u\[\e[0m\] \[\e[94m\][\W]\[\e
 PS2='> '
 PS3='> '
 PS4='+ '
+
+# added by travis gem
+[ -f /home/icy/.travis/travis.sh ] && source /home/icy/.travis/travis.sh
