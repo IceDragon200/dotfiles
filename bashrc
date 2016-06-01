@@ -9,7 +9,7 @@ if [ -f /etc/bash.bashrc ]; then
       . /etc/bash.bashrc   # --> Read /etc/bashrc, if present.
 fi
 
-alias ls='ls --color=always'
+alias ls='ls --color=auto'
 
 export EDITOR="vim"
 export PATH=$PATH":/home/icy/bin/"
