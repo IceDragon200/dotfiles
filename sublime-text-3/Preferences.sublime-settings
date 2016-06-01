@@ -1,4 +1,13 @@
 {
+	"added_words":
+	[
+		"Ilaria",
+		"Spyet",
+		"Alcane",
+		"Celissa",
+		"Ellisia",
+		"Leonora"
+	],
 	"auto_complete_commit_on_tab": true,
 	"bold_folder_labels": true,
 	"color_inactive_tabs": true,
@@ -10,13 +19,12 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"nginx",
-		"Vintage",
-		"Markdown",
-		"Stylus",
 		"ActionScript",
+		"Markdown",
+		"nginx",
 		"Pretty JSON",
-		"Ruby"
+		"Ruby",
+		"Vintage"
 	],
 	"indent_guide_options":
 	[
@@ -30,11 +38,12 @@
 	],
 	"show_encoding": true,
 	"show_tab_close_buttons": true,
-	"tab_size": 2,
+	"tab_size": 4,
 	"tabs_medium": false,
 	"tabs_small": true,
 	"theme": "Afterglow-blue.sublime-theme",
-	"translate_tabs_to_spaces": true,
+	"translate_tabs_to_spaces": false,
 	"trim_trailing_white_space_on_save": true,
+	"typescript_plugin_tsc_version": "1.7.3",
 	"word_wrap": false
 }
