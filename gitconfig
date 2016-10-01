@@ -48,7 +48,7 @@
 	m = merge
 	mm = merge origin/master
 	p = push
-	pf = push --force
+	pf = push --force-with-lease
 	pl = pull
 	r = rebase
 	ra = rebase --abort
