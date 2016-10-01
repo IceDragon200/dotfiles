@@ -66,8 +66,9 @@
 	default = matching
 
 [gui]
-	fontui = -family \"Anonymous Pro\" -size 10 -weight normal -slant roman -underline 0 -overstrike 0
-	fontdiff = -family \"Anonymous Pro\" -size 8 -weight normal -slant roman -underline 0 -overstrike 0
+	fontui = -family \"Anonymous Pro\" -size 11 -weight normal -slant roman -underline 0 -overstrike 0
+	fontdiff = -family \"Anonymous Pro\" -size 9 -weight normal -slant roman -underline 0 -overstrike 0
+	tabsize = 10
 
 [rebase]
 	autostash = true
