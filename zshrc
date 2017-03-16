@@ -52,8 +52,9 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 export GCC_COLORS="auto"
-export GOPATH="/home/icy/docs/codes/projects/go"
-export GOROOT="/home/icy/apps/go"
+export GOPATH="${HOME}/docs/codes/projects/go"
+export GOROOT="${HOME}/apps/go"
+export GEM_HOME="${HOME}/.gem"
 export PATH=\
 "/usr/local/sbin"\
 ":/usr/local/bin"\
@@ -61,7 +62,8 @@ export PATH=\
 ":/opt/android-sdk/tools"\
 ":/usr/share/java/gradle/bin"\
 ":/usr/bin/core_perl"\
-":${HOME}/.gem/ruby/2.3.0/bin"\
+":${GEM_HOME}/bin"\
+":${GEM_HOME}/ruby/2.3.0/bin"\
 ":${HOME}/bin/"\
 ":${HOME}/opt/npm/bin"\
 ":${HOME}/docs/codes/mruby/bin/"\
@@ -69,6 +71,8 @@ export PATH=\
 ":${GOROOT}/bin"\
 ":${GOPATH}/bin"\
 ":/usr/local/heroku/bin"
+
+setxkbmap -option 'caps:ctrl_modifier'
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -104,3 +108,7 @@ export EDITOR="vim"
 
 # added by travis gem
 [ -f /home/icy/.travis/travis.sh ] && source /home/icy/.travis/travis.sh
+
+source $HOME/opt/shell-addons/fzf-functions.sh
+#source $HOME/opt/shell-addons/fzf-key-bindings.bash
+source $HOME/opt/shell-addons/fzf-key-bindings.zsh
