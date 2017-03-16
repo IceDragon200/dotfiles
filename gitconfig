@@ -71,4 +71,7 @@
 	tabsize = 10
 
 [rebase]
-	autostash = true
+  autostash = true
+
+[branch]
+  autosetuprebase = always
