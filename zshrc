@@ -52,9 +52,9 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 export GCC_COLORS="auto"
-export GOPATH="${HOME}/docs/codes/projects/go"
-export GOROOT="${HOME}/apps/go"
+export GOPATH="${HOME}/opt/go"
 export GEM_HOME="${HOME}/.gem"
+export AWS_PROFILE=kops
 export PATH=\
 "/usr/local/sbin"\
 ":/usr/local/bin"\
@@ -68,7 +68,6 @@ export PATH=\
 ":${HOME}/opt/npm/bin"\
 ":${HOME}/docs/codes/mruby/bin/"\
 ":${HOME}/docs/codes/Polyfox/moon/bin/"\
-":${GOROOT}/bin"\
 ":${GOPATH}/bin"\
 ":/usr/local/heroku/bin"
 
@@ -80,6 +79,7 @@ setxkbmap -option 'caps:ctrl_modifier'
 # export LANG=en_US.UTF-8
 
 alias ls='ls --color=auto'
+alias k=kubectl
 
 # Preferred editor for local and remote sessions
 export EDITOR="vim"
@@ -109,6 +109,7 @@ export EDITOR="vim"
 # added by travis gem
 [ -f /home/icy/.travis/travis.sh ] && source /home/icy/.travis/travis.sh
 
-source $HOME/opt/shell-addons/fzf-functions.sh
+#source $HOME/opt/shell-addons/fzf-functions.sh
 #source $HOME/opt/shell-addons/fzf-key-bindings.bash
-source $HOME/opt/shell-addons/fzf-key-bindings.zsh
+#source $HOME/opt/shell-addons/fzf-key-bindings.zsh
+source /usr/share/nvm/init-nvm.sh
