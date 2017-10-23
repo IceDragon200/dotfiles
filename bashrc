@@ -22,3 +22,4 @@ PS4='+ '
 
 # added by travis gem
 [ -f /home/icy/.travis/travis.sh ] && source /home/icy/.travis/travis.sh
+source /usr/share/nvm/init-nvm.sh
