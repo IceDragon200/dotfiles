@@ -1,5 +1,6 @@
 set nocompatible
 
+set termguicolors
 set hidden
 set ruler
 set nowrap
@@ -41,3 +42,5 @@ map <up> <nop>
 map <down> <nop>
 map <left> <nop>
 map <right> <nop>
+
+colorscheme colibri
