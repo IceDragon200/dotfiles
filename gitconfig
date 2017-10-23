@@ -63,7 +63,7 @@
 	undo = reset --soft HEAD^
 
 [push]
-	default = matching
+	default = current
 
 [gui]
 	fontui = -family \"Anonymous Pro\" -size 11 -weight normal -slant roman -underline 0 -overstrike 0
@@ -75,3 +75,5 @@
 
 [branch]
   autosetuprebase = always
+[pull]
+	rebase = true
